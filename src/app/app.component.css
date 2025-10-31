@@ -5,23 +5,12 @@ body {
 .header {
     background-color: #fff;
     padding: 20px 0;
-    /* text-align: center; */
-    margin: 0 2% 0 2%;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-body hr{
-    margin: 0 2% 0 2%;
-}
-
 .car-image {
-    text-align: right;
-}
-
-.car-image img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
 }
 
 footer {
