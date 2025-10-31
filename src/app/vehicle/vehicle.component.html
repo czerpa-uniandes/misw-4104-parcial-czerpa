@@ -1,0 +1,18 @@
+<table class="table table-bordered mt-4">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Marca</th>
+      <th>Línea</th>
+      <th>Modelo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let vehicle of vehicles">
+      <td>{{vehicle.id}}</td>
+      <td>{{vehicle.marca}}</td>
+      <td>{{vehicle.linea}}</td>
+      <td>{{vehicle.modelo}}</td>
+    </tr>
+  </tbody>
+</table>
