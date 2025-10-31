@@ -16,3 +16,13 @@
     </tr>
   </tbody>
 </table>
+
+<div class="row">
+  <div class="row" *ngFor="let vehicleBrand of objectKeys(vehiclesByBrand)">
+    <div class="col-md-3">
+      <span>
+        Total {{vehicleBrand}}: {{vehiclesByBrand[vehicleBrand]}}
+      </span>
+    </div>
+  </div>
+</div>
