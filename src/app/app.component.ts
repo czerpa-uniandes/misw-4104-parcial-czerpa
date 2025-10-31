@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'misw-4104-parcial-czerpa';
+  title = 'TuSegundazo.com';
 }
